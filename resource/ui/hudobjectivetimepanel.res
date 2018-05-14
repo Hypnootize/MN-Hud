@@ -20,8 +20,7 @@
 
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}		
 	}
 	"TimePanelProgressBar"
@@ -29,16 +28,10 @@
 		"ControlName"			"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
 		"xpos"				"67"
-		"xpos_hidef"		"159"
-		"xpos_lodef"		"165"
 		"ypos"				"16"
-		"ypos_hidef"		"15"
-		"ypos_lodef"		"16"
 		"zpos"				"4"	
 		"wide"				"20"
-		"wide_lodef"		"25"
 		"tall"				"20"
-		"tall_lodef"		"25"	
 		"visible"			"1"
 		"enabled"			"1"
 		"scaleImage"			"1"
@@ -50,7 +43,7 @@
 
 		if_match
 		{
-			"visible"	"0"
+			"xpos"	"9999"
 		}
 	}
 	"WaitingForPlayersLabel"
@@ -58,19 +51,10 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
 		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
 		"ypos"			"34"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
 		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_WaitingForPlayers"
@@ -79,19 +63,10 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextTiny"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"130"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"xpos"	"9999"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -101,12 +76,9 @@
 		"xpos"			"16"	[$WIN32]
 		"xpos"			"11"	[$X360]
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -114,7 +86,7 @@
 
 		if_match
 		{
-			"wide"	"0"
+			"xpos"	"9999"
 		}
 	}
 	"OvertimeLabel"
@@ -122,19 +94,10 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
 		"ypos"			"33"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
 		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Overtime"
@@ -143,19 +106,10 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubText"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"130"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"xpos"	"9999"
 		}
 	}			
 	"OvertimeBG"
@@ -165,8 +119,6 @@
 		"xpos"			"16"	[$WIN32]
 		"xpos"			"11"	[$X360]
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
@@ -178,7 +130,7 @@
 
 		if_match
 		{
-			"wide"	"0"
+			"xpos"	"9999"
 		}
 	}
 	"SuddenDeathLabel"
@@ -186,19 +138,10 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
 		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
 		"ypos"			"33"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
 		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_SuddenDeath"
@@ -207,19 +150,10 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"130"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"xpos"	"9999"
 		}
 	}			
 	"SuddenDeathBG"
@@ -229,12 +163,9 @@
 		"xpos"			"16"	[$WIN32]
 		"xpos"			"11"	[$X360]
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -242,7 +173,7 @@
 
 		if_match
 		{
-			"wide"	"0"
+			"xpos"	"9999"
 		}
 	}	
 	"SetupLabel"
@@ -250,19 +181,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
 		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
 		"ypos"			"33"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
 		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Setup"
@@ -271,20 +193,10 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubText"
-		"font_minmode"	"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"130"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"xpos"	"9999"
 		}
 	}	
 	"SetupBG"
@@ -294,12 +206,9 @@
 		"xpos"			"16"	[$WIN32]
 		"xpos"			"11"	[$X360]
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -307,7 +216,7 @@
 
 		if_match
 		{
-			"wide"	"0"
+			"xpos"	"9999"
 		}
 	}
 	"ServerTimeLimitLabel"
@@ -315,41 +224,22 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
 		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
 		"ypos"			"33"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
 		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"ClockSubText"
-		"font_minmode"	"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"130"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"xpos"		"7"
 		}
 	}	
 	"ServerTimeLimitLabelBG"
@@ -359,8 +249,6 @@
 		"xpos"			"16"	[$WIN32]
 		"xpos"			"11"	[$X360]
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
@@ -372,7 +260,7 @@
 		
 		if_match
 		{
-			"wide"	"0"
-		}	
+			"xpos"	"9999"
+		}
 	}
 }
