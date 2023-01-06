@@ -2023,7 +2023,7 @@
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
-		"xpos"				"60"
+		"xpos"				"c-152"
 		"ypos"				"10"
 		"zpos"				"10"
 		"wide"				"f0"
